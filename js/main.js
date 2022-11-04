@@ -9,6 +9,9 @@ var pw = false;
 let pwd = false;
 var commands = [];
 
+var reg =
+  /^echo (?:"(?:[^"\\]+|\\{2}|\\[\s\S])*"|'(?:[^'\\]+|\\{2}|\\[\s\S])*'|[a-z]\w*)/;
+
 setTimeout(function () {
   loopLines(banner, "", 80);
   textarea.focus();
@@ -114,6 +117,7 @@ function commander(cmd) {
       break;
     case "projects":
       loopLines(projects, "color2 margin", 80);
+      // loopLines(new_projects, "color2 margin", 80);
       break;
     case "resume":
       setTimeout(function () {
@@ -171,6 +175,13 @@ function commander(cmd) {
     case "github":
       addLine("Opening GitHub...", "color2", 0);
       newTab(github);
+      break;
+    case cmd.toLowerCase():
+      let show = cmd.toLowerCase().replace(/echo/i, "");
+      // console.log(show);
+      addLine(show, "color2", 0);
+      // console.log("echo test;".match(reg));
+      // source : https://stackoverflow.com/questions/18021259/javascript-regexp-to-simulate-echo-statement
       break;
     default:
       addLine(

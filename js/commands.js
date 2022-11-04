@@ -8,24 +8,17 @@ var email = "mailto:banikuday2708@gmail.com";
 var resume =
   "https://drive.google.com/file/d/1ZzPL2PLzSy7RxBVe0bMvUwusNwFbBkAE/view?usp=share_link";
 
+// echo = ['$'];
+
 whois = [
   "<br>",
-  //   "Hey, I'm Forrest!👋",
-  //   "I'm a software developer and content creator, who builds engaging websites like this one",
-  //   "and makes YouTube videos about computer science & software engineering.",
-  //   "After graduating with a Bachelor's in Computer Science, I worked professionally",
-  //   "as a software engineer building enterprise web applications for Fortune 500 companies.",
-  //   "While doing all of that, I documentned my coding journey on YouTube - trying to enlighten",
-  //   "the next generation of developers and help them navigate the crazy world that is software",
-  //   "development & computer science.",
-  //   "Before I knew it, that online presence took on a life of its own, to the point where I knew",
-  //   "I needed to make the jump from software engineering to full time content creator, and it's",
-  //   "the best decision I ever made.",
-  //   "Now, I make videos about creating cool shit like this terminal website, and hosting my",
-  //   "podcast 'Decoded w/ Forrest Knight.' What most people don't know, and will only know",
-  //   "because they're reading this right now, is that I also run a creative & media agency.",
-  //   "We partner with clients to drive their business outcomes using modern marketing strategies.",
-
+  "Hey There! I'm Udayan Banik,",
+  "A 2022 Graduate🎓 in ⌨️Computer Science and Engineering at the Tripura Institute of Technology, Narsingarh, India.",
+  "-> A passionate, hard-working and goal-oriented person.",
+  "-> Full Stack Web Developer and a touch typing enthusiast.",
+  "-> I love to get my hands on latest and greatest in tech and love watching the movie 'The Founder'.",
+  "<br>",
+  "I consider myself a quick and constant learner. I can adapt to new tech-stack within a short amount of time.",
   "<br>",
 ];
 
@@ -71,6 +64,10 @@ projects = [
   "Still curating... most projects are offline, on GitHub, or confidential.",
   "<br>",
 ];
+
+// new_projects = [
+//   '<ul><li class="proj_name"><strong><a href="https://codemeds.co.in" target="_blank">Codemeds</a></strong><span> | HTML | CSS | Javascript | CoWin API | d3.js | </span><br /><ul><li>A web app to search and check for vaccine availability, covid statistics, download vaccination certificate for user input parameters.</li><li>Used CSS and Vanilla JavaScript for the front-end design and functionality and d3.js for the rendering the Indian map with statistics on stats page</li><li>Progressive Web App support.</li><li>Used SubtleCrypto.encrypt() to encrypt the OTP into SHA-256 for OTP validation.</li></ul></li><br /><li class="proj_name"><strong><a href="https://github.com/udayan-banik/Url-Shortener"target="_blank">URL Shortener</a></strong><span> | Embedded JavaScript | NodeJS | </span><br /><ul><li>Developed a simple url shortener system using JavaScript to simulate the common functions of using an url shortener.</li><li>Implemented CRUD operations for making, updating and deleting shortened urls and their redirections.</li><li>Improved code to reduce the latency of read-write and acheive high throughput.</li><li>Utilized MongoDB for the database.</li></ul></li><br /></ul>',
+// ];
 
 help = [
   "<br>",
