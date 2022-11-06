@@ -89,7 +89,7 @@ help = [
   '<span class="command">email</span>          Do not email me',
   '<span class="command">clear</span>          Clear terminal',
   '<span class="command">banner</span>         Display the header',
-  '<span class="command">echo [text]</span>    Print text',
+  // '<span class="command">echo [text]</span>    Print text',
   '<span class="command">recruit</span>        Display the professional profile of Udayan',
   '<span class="command">shorten</span>        Opens an url shortener service, if you are connected to the web',
   "<br>",

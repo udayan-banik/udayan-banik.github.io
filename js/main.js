@@ -190,11 +190,11 @@ function commander(cmd) {
       addLine("Opening Url Shrinker...", "color2", 0);
       newTab(shorten);
       break;
-    case cmd.toLowerCase():
-      let show = cmd.toLowerCase().replace(/echo/i, "");
-      addLine(show, "color2", 0);
-      // source : https://stackoverflow.com/questions/18021259/javascript-regexp-to-simulate-echo-statement
-      break;
+    // case cmd.contains("echo"):
+    //   let show = cmd.toLowerCase().replace(/echo/i, "");
+    //   addLine(show, "color2", 0);
+    // source : https://stackoverflow.com/questions/18021259/javascript-regexp-to-simulate-echo-statement
+    // break;
     default:
       addLine(
         '<span class="inherit">Command not found. For a list of commands, type <span class="command">\'help\'</span>.</span>',
