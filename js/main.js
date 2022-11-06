@@ -92,6 +92,13 @@ function commander(cmd) {
     case "help":
       loopLines(help, "color2 margin", 80);
       break;
+    case "recruit":
+      addLine("Opening Professional Profile...", "color2", 80);
+      loopLines(recruit, "color2 margin", 80);
+      break;
+    case "about":
+      loopLines(whois, "color2 margin", 80);
+      break;
     case "whois":
       loopLines(whois, "color2 margin", 80);
       break;
@@ -116,8 +123,8 @@ function commander(cmd) {
       pw = true;
       break;
     case "projects":
-      loopLines(projects, "color2 margin", 80);
-      // loopLines(new_projects, "color2 margin", 80);
+      // loopLines(projects, "color2 margin", 80);
+      loopLines(new_projects, "color2 margin", 80);
       break;
     case "resume":
       setTimeout(function () {
@@ -145,6 +152,9 @@ function commander(cmd) {
         80
       );
       newTab(email);
+      break;
+    case "experience":
+      loopLines(experience, "color2", 80);
       break;
     case "clear":
       setTimeout(function () {
@@ -176,11 +186,13 @@ function commander(cmd) {
       addLine("Opening GitHub...", "color2", 0);
       newTab(github);
       break;
+    case "shorten":
+      addLine("Opening Url Shrinker...", "color2", 0);
+      newTab(shorten);
+      break;
     case cmd.toLowerCase():
       let show = cmd.toLowerCase().replace(/echo/i, "");
-      // console.log(show);
       addLine(show, "color2", 0);
-      // console.log("echo test;".match(reg));
       // source : https://stackoverflow.com/questions/18021259/javascript-regexp-to-simulate-echo-statement
       break;
     default:

@@ -5,6 +5,7 @@ var linkedin = "https://www.linkedin.com/in/udayan-banik/";
 var instagram = "https://www.instagram.com/iammajorzeus/";
 var github = "https://github.com/udayan-banik/";
 var email = "mailto:banikuday2708@gmail.com";
+var shorten = "http://url-shortener-jo1g.onrender.com/";
 var resume =
   "https://drive.google.com/file/d/1ZzPL2PLzSy7RxBVe0bMvUwusNwFbBkAE/view?usp=share_link";
 
@@ -13,7 +14,7 @@ var resume =
 whois = [
   "<br>",
   "Hey There! I'm Udayan Banik,",
-  "A 2022 Graduate🎓 in ⌨️Computer Science and Engineering at the Tripura Institute of Technology, Narsingarh, India.",
+  "A 2022 Graduate🎓 in 💻Computer Science and Engineering at the Tripura Institute of Technology, Narsingarh, India.",
   "-> A passionate, hard-working and goal-oriented person.",
   "-> Full Stack Web Developer and a touch typing enthusiast.",
   "-> I love to get my hands on latest and greatest in tech and love watching the movie 'The Founder'.",
@@ -65,9 +66,15 @@ projects = [
   "<br>",
 ];
 
-// new_projects = [
-//   '<ul><li class="proj_name"><strong><a href="https://codemeds.co.in" target="_blank">Codemeds</a></strong><span> | HTML | CSS | Javascript | CoWin API | d3.js | </span><br /><ul><li>A web app to search and check for vaccine availability, covid statistics, download vaccination certificate for user input parameters.</li><li>Used CSS and Vanilla JavaScript for the front-end design and functionality and d3.js for the rendering the Indian map with statistics on stats page</li><li>Progressive Web App support.</li><li>Used SubtleCrypto.encrypt() to encrypt the OTP into SHA-256 for OTP validation.</li></ul></li><br /><li class="proj_name"><strong><a href="https://github.com/udayan-banik/Url-Shortener"target="_blank">URL Shortener</a></strong><span> | Embedded JavaScript | NodeJS | </span><br /><ul><li>Developed a simple url shortener system using JavaScript to simulate the common functions of using an url shortener.</li><li>Implemented CRUD operations for making, updating and deleting shortened urls and their redirections.</li><li>Improved code to reduce the latency of read-write and acheive high throughput.</li><li>Utilized MongoDB for the database.</li></ul></li><br /></ul>',
-// ];
+new_projects = [
+  '<ul><li class="proj_name"><strong><a href="https://codemeds.co.in" target="_blank">Codemeds (A performance and lightweight version of CoWin)</a></strong><span> | HTML | CSS | Javascript | CoWin API | d3.js | </span><br /><ul><li>A web app to search and check for vaccine availability, covid statistics, download vaccination certificate for user input parameters.</li><li>Developed a proprietary file downloader with Vanilla JavaScript for downloading Vaccination certificate issued by Govt. of India.</li><li>d3.js is used for rendering a statistics based map of India.</li><li>A very light-weight website which can load in even 2g networks without any lag.</li><li>Progressive Web App support (Lighthouse Score 94).</li><li>Used SubtleCrypto.encrypt() to encrypt the OTP into SHA-256 for OTP validation.</li></ul></li></ul>',
+
+  '<ul><li class="proj_name"><strong><a href="#">Music streaming App with Recommendation system</a></strong><span> | React | Node.js | Express.js | Python | Spotify API | Spotipy | Matplotlib | SkLearn | Google Colab | </span><br /><ul><li>A music streaming app that lets users search and play any song from the Spotify API alongwith live lyrics.</li><li>Axios for processing the HTTP requests and Spotify oAuth for user authentication.</li><li>Performed exploratory data analysis on a dataset of 150k songs from the Spotify database for creating a recommendation system.</li></ul></li></ul>',
+
+  '<ul><li class="proj_name"><strong><a href="http://url-shortener-jo1g.onrender.com/" target="_blank">URL Shrinker (URL Shortener)</a></strong><span> | EJS | Express.js | Node.js | MongoDB |</span><br /><ul><li>Designed and developed a url shortener system using JavaScript to simulate the common functions of using an url shortener.</li><li>Developed a feature to track the no. of clicks per link.</li><li>Improved code to reduce the latency of read-write and acheive high throughput.</li><li>Utilized MongoDB for the database.</li></ul></li></ul>',
+
+  '<ul><li class="proj_name"><strong><a href="https://udayan-banik.github.io/textcode/" target="_blank">Text Code (Text Editor)</a></strong><span> | HTML | CSS | JavaScript |</span><br /><ul><li>Text-editor with support for syntax highlighting.</li><li>High performance and runs both online and offline.</li></ul></li></ul>',
+];
 
 help = [
   "<br>",
@@ -82,7 +89,25 @@ help = [
   '<span class="command">email</span>          Do not email me',
   '<span class="command">clear</span>          Clear terminal',
   '<span class="command">banner</span>         Display the header',
+  '<span class="command">echo [text]</span>    Print text',
+  '<span class="command">recruit</span>        Display the professional profile of Udayan',
+  '<span class="command">shorten</span>        Opens an url shortener service, if you are connected to the web',
   "<br>",
+];
+
+recruit = [
+  "<br>",
+  '<span class="command">about</span>          About Udayan Banik',
+  '<span class="command">experience</span>     Work experience',
+  '<span class="command">projects</span>       View coding projects',
+  '<span class="command">email</span>          Email Udayan and take it forward!',
+  '<span class="command">clear</span>          Clear terminal',
+  '<span class="command">banner</span>         Display the header',
+  "<br>",
+];
+
+experience = [
+  "Currently having a great time building projects and grinding💪 Leetcode, but who knows you might be my next employer💰!",
 ];
 
 resume = [
@@ -105,6 +130,7 @@ banner = [
   "                                                                                               ",
   '<span class="color2">Welcome to my interactive web terminal.</span>',
   '<span class="color2">For a list of available commands, type</span> <span class="command">\'help\'</span><span class="color2">.</span>',
+  '<span class="color2">If you are a recruiter visiting the portfolio. For a list of commands, type <span class="command">\'recruit\'</span>.</span>',
 ];
 
 pass12 = [
