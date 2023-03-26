@@ -128,7 +128,10 @@ function commander(cmd) {
       break;
     case "resume":
       setTimeout(function () {
-        window.open("assets/Udayan_Banik_YoP_2022.pdf");
+        // window.open("assets/Udayan_Banik_YoP_2022.pdf");
+        window.open(
+          "https://drive.google.com/file/d/1ZzPL2PLzSy7RxBVe0bMvUwusNwFbBkAE/view?usp=share_link"
+        );
       }, 1000);
       loopLines(resume, "color2 margin", 80);
       break;
